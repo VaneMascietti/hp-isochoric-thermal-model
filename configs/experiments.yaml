@@ -1,0 +1,17 @@
+experiments:
+  exp04:
+    raw_file: "data/raw/exp04/experiment.lvm"
+    composition:
+      x_co2: 0.9011
+  exp05:
+    raw_file: "data/raw/exp05/experiment.lvm"
+    composition:
+      x_co2: 0.9052
+  exp06:
+    raw_file: "data/raw/exp06/experiment.lvm"
+    composition:
+      x_co2: 0.9037
+  exp07:
+    raw_file: "data/raw/exp07/experiment.lvm"
+    composition:
+      x_co2: 0.9037
