@@ -1,0 +1,10 @@
+cell:
+  V1_ml: 3.6
+  description: "HP cell fluid volume"
+line:
+  V2_ml: 0.90
+  inner_diameter_mm: 1.5
+  material: "Hastelloy"
+upper_region:
+  V3_ml: 0.35
+notes: "Update these values with measured geometry before fitting."
