@@ -1,0 +1,6 @@
+mode: predict
+experiment_id: exp07
+geometry_file: configs/geometry.yaml
+experiments_file: configs/experiments.yaml
+output:
+  csv: results/predictions/example_prediction_curve.csv
