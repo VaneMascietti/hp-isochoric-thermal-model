@@ -1,0 +1,19 @@
+mode: fit
+experiment_id: exp06
+geometry_file: configs/geometry.yaml
+experiments_file: configs/experiments.yaml
+weights:
+  pressure: 1.0
+parameters:
+  tau3_s:
+    initial: 1800.0
+    bounds: [100.0, 20000.0]
+  lambda_env:
+    initial: 0.7
+    bounds: [0.0, 1.0]
+  V3_ml:
+    initial: 0.35
+    bounds: [0.05, 1.50]
+output:
+  json: results/fits/example_fit.json
+  csv: results/fits/example_fit_curve.csv
